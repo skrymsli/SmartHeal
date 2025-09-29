@@ -1,0 +1,12 @@
+## Interface: 11200
+## Title: SmartHeal 1.0.0
+## DefaultState: enabled
+## Depenencies: BetterCharacterStats
+## Notes: This addon will select the most appropriate rank healing spell to conserve mana and minimize overheal taking +healing into account.
+## SavedVariablesPerCharacter: Sh_Saved, SH_REMOTE_DEBUG
+## Version 1.0.0
+## Author: Cody Batt (thx to Decursive Devs)
+## URL: https://github.com/CodyBatt/SmartHeal
+localization.lua
+SmartHeal.lua
+SmartHeal.xml
