@@ -18,9 +18,16 @@ Heal[2] =  {2, 445, 507, 174, 1};
 Heal[3] =  {3, 586, 662, 216, 1};
 Heal[4] =  {4, 627, 706, 259, 1};
 
+local GreaterHeal = {}
+GreaterHeal[1] =  {1, 530, 614, 247, 1};
+GreaterHeal[2] =  {2, 712, 808, 310, 1};
+GreaterHeal[3] =  {3, 897, 1001, 373, 1};
+GreaterHeal[4] =  {4, 1040, 1154, 436, 1};
+
 local SpellTable = {
     ['Flash Heal'] = FlashHeal,
     ['Heal'] = Heal,
+    ['Greater Heal'] = GreaterHeal,
 }
 
 Sh_PlayerClass = "";
